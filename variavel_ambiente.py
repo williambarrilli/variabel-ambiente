@@ -8,7 +8,8 @@ PORT = os.getenv('PORT')
 DATABASE = os.getenv('DATABASE')
 PASSWORD = os.getenv('PASSWORD')
 
-print('Host:', HOST)
-print('Port:', PORT)
-print('Database:', DATABASE)
-print('Password:', PASSWORD)
+while True:
+    senha = input('digite a senha:')
+    if(senha == PASSWORD): {
+        print('senha aceita')
+    }
